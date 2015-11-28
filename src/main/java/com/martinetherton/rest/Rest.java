@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Rest {
 
-    @RequestMapping(value="/order", method= RequestMethod.GET)
+    @RequestMapping(value="/order", method= RequestMethod.GET, produces="application/xml")
     public Order hello() {
         System.out.println("Rest says hello");
         Order order = new Order("123");

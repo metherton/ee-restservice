@@ -8,10 +8,10 @@ import java.io.Serializable;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
-@XmlRootElement(name = "reward", namespace = "http://www.springsource.com/order")
+@XmlRootElement(name = "reward")
 public class Order {
 
-    @XmlAttribute
+    @XmlElement
     private String orderNumber;
 
     public Order() {}
