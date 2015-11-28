@@ -29,10 +29,10 @@ public class Order {
         this.orderNumber = orderNumber;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Order{" +
-//                "orderNumber='" + orderNumber + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderNumber='" + orderNumber + '\'' +
+                '}';
+    }
 }
