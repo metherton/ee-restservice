@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by martin on 28/11/15.
  */
 @RestController
-public class Rest {
+public class TwilioRestController {
 
     @RequestMapping(value="/order", method= RequestMethod.GET, produces="application/xml")
     public Order hello() {
